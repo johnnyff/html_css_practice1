@@ -15,44 +15,40 @@ body {
 a {
   text-decoration: none;
 }
-/* CTA */
+
+/* CALL TO ACTION */
 .cta {
+  color: white;
+  font-weight: 400;
   display: block;
   border-radius: 8px;
-  background: green;
-  font-weight: 400;
-  text-decoration: none;
-  color: white;
-}
-.cta:hover {
   background: #44b78b;
 }
+.cta:hover {
+  background: #51be95;
+}
 
+/* HEADER */
 .header {
-  background: green;
-  padding: 15px 0 4px;
+  background: #0c4b33;
   height: 72px;
+  padding: 15px 0 4px;
 }
-.container {
-  max-width: 1400px;
-  margin: 0 auto 0 auto;
-  position: relative;
-  padding: 0 20px;
-}
+.container,
 .container-float {
   max-width: 1400px;
-  background: red;
-  margin: 0 auto 0 auto;
-  position: relative;
+  margin: 0 auto;
   padding: 0 20px;
+  position: relative;
 }
-.container-float ::after {
+.container-float::after {
   display: block;
   content: "";
   clear: both;
 }
 .logo {
   margin: 0;
+  padding-left: inherit;
   position: absolute;
   top: 0;
   left: 0;
@@ -78,7 +74,6 @@ a {
 .list-item > a:hover {
   color: #c9f0dd;
 }
-
 /* main */
 .hero-section {
   text-align: center;
@@ -114,6 +109,12 @@ a {
 }
 .mailing-layout {
   padding-top: 10px;
+}
+.mailing-title > a {
+  color: black;
+}
+.mailing-desc > a {
+  color: black;
 }
 .mailing-layout::after {
   content: "";
@@ -185,8 +186,8 @@ input[type="email"] {
   text-transform: uppercase;
   color: #20aa76;
 }
-.more::after {
-  content: ">";
+.more::before {
+  content: "> ";
 }
 
 .news-title {
@@ -227,6 +228,18 @@ input[type="email"] {
   color: #9ec0b4;
   margin: 10px 0 0 0;
 }
+/* FOOTER */
 .footer {
-  background: white;
+  background: #0c4b33;
+  padding: 10px 0 30px;
+}
+.footer a {
+  color: inherit;
+}
+.copyright {
+  font-size: 1.2rem;
+  color: #2b8c67;
+}
+.copyright a {
+  text-decoration: underline;
 }
