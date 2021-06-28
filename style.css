@@ -138,7 +138,7 @@ a {
   clip: rect(0, 0, 0, 0);
 }
 input[type="email"] {
-  width: 100%;
+  width: 90%;
   border: 1px solid #cfe3dc;
   border-radius: 4px;
   height: 5rem;
@@ -147,7 +147,7 @@ input[type="email"] {
 .mailing-form-btn {
   position: absolute;
   top: 30%;
-  right: 10px;
+  right: 12%;
   border: 0;
   background: transparent;
   color: #44b78b;
